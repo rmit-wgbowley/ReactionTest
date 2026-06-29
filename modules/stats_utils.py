@@ -1,8 +1,5 @@
 """
 File: stats.py
-Author: William Bowley
-Version: 0.1
-Date: 2024 - 09 - 04
 
 Description:
     Helper functions for statistical analysis

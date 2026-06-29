@@ -1,8 +1,5 @@
 """
 File: app.py
-Author: William Bowley
-Version: 0.1
-Date: 2024 - 09 - 04
 
 Description:
     This is the main entry point for the Flask application.
@@ -10,6 +7,7 @@ Description:
 """
 
 import logging
+
 from logging.handlers import RotatingFileHandler
 from flask import Flask
 from modules.routes import bp as routes_bp

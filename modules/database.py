@@ -1,8 +1,5 @@
 """
 File: database.py
-Author: William Bowley
-Version: 0.1
-Date: 2024 - 09 - 04
 
 Description:
     Manages the database and adds or gets results

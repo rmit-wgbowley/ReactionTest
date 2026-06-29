@@ -1,8 +1,5 @@
 """
 File: routes.py
-Author: William Bowley
-Version: 0.1
-Date: 2024 - 09 - 04
 
 Description:
     Manages routes and connects the modules,
@@ -11,6 +8,7 @@ Description:
 
 
 import uuid
+
 from flask import Blueprint, render_template, request, jsonify, make_response
 from modules import database, stats_utils
 
