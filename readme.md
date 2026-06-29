@@ -11,7 +11,6 @@ Color palette
 ---
 > [!Important]
 > This application was developed over 2 days and then deployed for 5 days for Unit 4 Specialist Mathematics SAC (School Assessed Coursework).
->
 
 # Overview
 ![License](https://img.shields.io/badge/License-MIT-FFFFFF?style=flat-square)
@@ -25,10 +24,12 @@ A simple `Flask` and `sqlite3` application to collect human reaction time data w
 >
 > The raw dataset is available [here (last updated 2025/09/07)](/dataset/reaction.sql)
 
+### Features
+
 > [!note]
-> - Personal reaction time distribution with mean, standard deviation, and trial count
-> - Comparison to the collected sample distribution within the set
-> - Percentile ranking against the global distribution
+> - Personal reaction time distribution with mean, standard deviation, and trial count.
+> - Comparison to the collected sample distribution within the set.
+> - Percentile ranking against the global distribution.
 
 ## Data Analysis
 
@@ -41,6 +42,7 @@ Interestingly, the difference between the `Human Benchmark` dataset and this dat
 ```css
 transition: background-color 0.3s, transform 0.2s;
 ```
+
 
 > [!note]
 > This line (49) has been commented out. Create a new `sqlite3` database for future studies, as data collected before `2025/10/23` may contain a systematic measurement bias.
